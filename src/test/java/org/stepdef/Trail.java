@@ -19,6 +19,7 @@ public class Trail extends BaseClass {
 	public void user_is_on_login_page() {
 		loginpage.getTxtusername().clear();
 		loginpage.getTxtpassword().clear();
+		
 	}
 
 	@When("user enters the email and password using dataTable oneD List")
@@ -28,6 +29,7 @@ public class Trail extends BaseClass {
 
 		type(loginpage.getTxtusername(), l.get(0));
 		type(loginpage.getTxtpassword(), l.get(1));
+		
 	}
 
 	@When("user click login button")
@@ -37,6 +39,7 @@ public class Trail extends BaseClass {
 
 	@Then("User get validate the page")
 	public void user_get_validate_the_page() {
+		
 		Assert.assertEquals(findLocatorXpath("//div[@class='content-header']").getText(), "Dashboard");
 		System.out.println("verifyied the dashboard,its valid credentials");
 	}

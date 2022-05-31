@@ -22,6 +22,10 @@ public class Hooks extends BaseClass {
 	}
 	@After
 	public void afterExecution(Scenario s) {
+		System.out.println("trail1");
+		System.out.println("trail2");
+		System.out.println("trail3");
+		System.out.println("trail4");
 		if (s.isFailed()) {
 			TakesScreenshot ts = (TakesScreenshot) driver;
 			byte[] screenshotAs = ts.getScreenshotAs(OutputType.BYTES);
