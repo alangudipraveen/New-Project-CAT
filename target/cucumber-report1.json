@@ -1,0 +1,470 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 137341000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on login page",
+            "match": {
+              "location": "Trail.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8409295900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeExecution()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Verifying the Admin area demo page with valid credentials",
+        "description": "",
+        "id": "verifying-the-admin-area-demo-page;verifying-the-admin-area-demo-page-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 62332900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterExecution(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 134968500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters the email and password using dataTable oneD List",
+            "match": {
+              "location": "Trail.user_enters_the_email_and_password_using_dataTable_oneD_List(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "admin@yourstore.com"
+                ]
+              },
+              {
+                "cells": [
+                  "admin"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5494956000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user click login button",
+            "match": {
+              "location": "Trail.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42323900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User get validate the page",
+            "match": {
+              "location": "Trail.user_get_validate_the_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Task"
+          },
+          {
+            "name": "@Task1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 91714800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on login page",
+            "match": {
+              "location": "Trail.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3804035500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeExecution()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Verifying the Admin area demo page with invalid credentials",
+        "description": "",
+        "id": "verifying-the-admin-area-demo-page;verifying-the-admin-area-demo-page-with-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 49906700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterExecution(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 124793400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enters the email and password using dataTable TwoD Lists",
+            "match": {
+              "location": "Trail.user_enters_the_email_and_password_using_dataTable_TwoD_Lists(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "admin@yourstore.com",
+                  "admin123"
+                ]
+              },
+              {
+                "cells": [
+                  "admin@yourstore.com",
+                  "admin876"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 751707000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user click login button",
+            "match": {
+              "location": "Trail.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26255800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User get validate the msg",
+            "match": {
+              "location": "Trail.user_get_validate_the_msg()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Task"
+          },
+          {
+            "name": "@Task2"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 87882300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on login page",
+            "match": {
+              "location": "Trail.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3699053600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeExecution()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Verifying the Admin area demo page with invalid credentials",
+        "description": "",
+        "id": "verifying-the-admin-area-demo-page;verifying-the-admin-area-demo-page-with-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 46970100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterExecution(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 117497900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user enters the email and password using dataTable OneD Map",
+            "match": {
+              "location": "Trail.user_enters_the_email_and_password_using_dataTable_OneD_Map(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "email",
+                  "admin@yourstore.com"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "admin123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 771724200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user click login button",
+            "match": {
+              "location": "Trail.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26039900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User get validate the msg",
+            "match": {
+              "location": "Trail.user_get_validate_the_msg()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Task"
+          },
+          {
+            "name": "@Task3"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 85789200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on login page",
+            "match": {
+              "location": "Trail.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2058682300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeExecution()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Verifying the Admin area demo page with invalid credentials",
+        "description": "",
+        "id": "verifying-the-admin-area-demo-page;verifying-the-admin-area-demo-page-with-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 49143000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterExecution(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 115555900,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user enters the email and password using dataTable TwoD Maps",
+            "match": {
+              "location": "Trail.user_enters_the_email_and_password_using_dataTable_TwoD_Maps(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "email",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "praveen@yourstore.com",
+                  "admin123"
+                ]
+              },
+              {
+                "cells": [
+                  "admin@yourstore.com",
+                  "admin12"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 544771100,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user click login button",
+            "match": {
+              "location": "Trail.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25185100,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User get validate the msg",
+            "match": {
+              "location": "Trail.user_get_validate_the_msg()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Task"
+          },
+          {
+            "name": "@Task4"
+          }
+        ]
+      }
+    ],
+    "name": "verifying the Admin area demo page",
+    "description": "",
+    "id": "verifying-the-admin-area-demo-page",
+    "keyword": "Feature",
+    "uri": "C:/Users/prave/eclipse-workspace/Project5/src/test/resources/log.feature",
+    "tags": [
+      {
+        "name": "@Task",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
