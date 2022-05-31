@@ -30,6 +30,12 @@ public class Hooks extends BaseClass {
 		System.out.println("trail6");
 		System.out.println("trail7");
 		System.out.println("trail8");
+		System.out.println("trail9");
+		System.out.println("trail10");
+		System.out.println("trail11");
+		System.out.println("trail12");
+		
+		
 		if (s.isFailed()) {
 			TakesScreenshot ts = (TakesScreenshot) driver;
 			byte[] screenshotAs = ts.getScreenshotAs(OutputType.BYTES);
